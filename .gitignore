@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directories
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+.env/
+
+# Flask specific
+instance/
+*.log
+
+# Docker specific
+docker-compose.override.yml
+.dockerignore
+
+# Ignore Python env files
+*.env
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore files for deployment
+certbot/conf/
+certbot/www/

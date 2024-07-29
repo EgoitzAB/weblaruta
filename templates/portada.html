@@ -1,0 +1,137 @@
+{% extends 'base.html' %}
+
+{% block title %}El Tour de la Cagada{% endblock title %}
+{% block extrahead %}<meta name="description" content="{% block description %}Tour de la cagada, cagando en el Garibaldi{% endblock description %}">{% endblock extrahead %}
+    <body>
+{% block content %}
+    <h1>BIENVENIDO AL TOUR DE LA CAGADA</h1>
+    <h2>De los Habsburgo, hasta el buitre y la comepollas</h2>
+
+    <section class="paso">
+        <h3>Plaza Mayor de los austrias</h3>
+        <figure data-aos="zoom-in">
+            <img src="{{ url_for('static', filename='../media/images/felipeII.JPG')}}" alt="Imagen de Felipe II" />
+            <figcaption>Imagen de Felipe II</figcaption>
+        </figure>
+        <p>Nuestra propuesta de recorrido por Madrid comienza en la Plaza Mayor. Remodelando la antigua plaza del Arrabal, Felipe II y su arquitecto de cabecera, Juan de Herrera y finalizada por su hijo flojucho, Felipe III y Juan Gómez de Mora. Aunque haya vivido tiempos mejores, albergando corridas de toros o moralizantes autos de fe, hoy en día el fútbol se ha impuesto a estas sanas costumbres, y tenemos aficionados de equipos extranjeros meando en ella. Si quieren ampliar el conocimiento, visiten las chuscas</p>
+        <ul>
+            <li><a href="https://www.esmadrid.com/informacion-turistica/plaza-mayor-madrid">Página web del ayuntamiento de Madrid</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Plaza_Mayor_de_Madrid">Vulgopedia</a></li>
+        </ul>
+        <figure data-aos="zoom-in">
+            <img src="{{ url_for('static', filename='../media/images/plaza-mayor-en-madrid.jpg')}}" alt="Plaza Mayor de Madrid">
+            <figcaption>Plaza Mayor de Madrid</figcaption>
+        </figure>
+        <p>Si quieren ser tratado como un turista imbécil, vayan a sus bares y tómense un relaxing cup of coffee.</p>
+    </section>
+
+    <section class="paso">
+        <h3>Puerta del Sol</h3>
+        <figure data-aos="fade-up-right">
+            <img src="{{ url_for('static', filename='../media/images/sol.jpg')}}" alt="Puerta del Sol de Madrid">
+            <figcaption>Puerta del Sol de Madrid</figcaption>
+        </figure>
+        <p>Seguiremos nuestro camino por Madrid, por él en su época, mentidero de Madrid. La puerta del Sol, centro de las carreteras españolas, con su famoso reloj de la torre y que se ha convertido en un punto de encuentro en Madrid. Fue construida mediante sucesivas ampliaciones y derribos de edificios, y en ella han tenido lugar numerosas protestas, entre ellas las de piojosos y golfos podemitas del 15-M. Aquí comenzaron el buitre corcovado y la chupapollas su fortuna personal, sentando las bases del futuro expolio e hipocresía. Para entender mejor como unos pijopuercos golfantes, lograron amasar sus fortunas, dejaremos un enlace para que comprendan</p>
+        <ul>
+            <li><a href="https://diazvillanueva.com/la-enziklopedia-perroflauta-un-libro-necesario/">El farcismo de los mercados y otras invenciones perroflaúticas</a> de aquella época, de la mano del nihilista Fernando CIA Villanueva.</li>
+        </ul>
+        <figure data-aos="fade-up-left">
+            <img src="{{ url_for('static', filename='../media/images/movimientarios.jpg')}}" alt="Manifestaciones en la Puerta del Sol de Madrid">
+            <figcaption>Manifestaciones en la Puerta del Sol de Madrid</figcaption>
+        </figure>
+    </section>
+
+    <section class="paso">
+        <h3>Plaza de la Lealtad</h3>
+        <figure data-aos="fade-down-left">
+            <img src="{{ url_for('static', filename='../media/images/plazalealtad.jpg')}}" alt="Puerta de la Lealtad">
+            <figcaption>Puerta de la Lealtad</figcaption>
+        </figure>
+        <p>Llegamos a la plaza de la Lealtad al estado, aquí, veremos el monumento a los caídos en la Guerra de la Independencia. En lenguaje pijopuerco, la guerra de no me cuentes historias y dame la paguita, que ningún ser humano es ilegal. La llama por los fusilados del 3 de Msyo, sigue encendida hasta que dentro de poco, gracias al sistema educativo se olvide lo que es el fuego.</p>
+        <ul>
+            <li><a href="https://www.amazon.es/Liberales-1808-Jorge-Vilches-Garc%C3%ADa/dp/8496729117">Un libro sobre aquella época para abrir boca.</a></li>
+        </ul>
+        <figure data-aos="fade-down-right">
+            <img src="{{ url_for('static', filename='../media/images/llama.jpg')}}" alt="Monumento plaza de la Lealtad">
+            <figcaption>Monumento plaza de la Lealtad</figcaption>
+        </figure>
+    </section>
+
+    <section class="paso">
+        <h3>Congreso de los imputados</h3>
+        <figure  data-aos="fade-zoom-in">
+            <img src="{{ url_for('static', filename='../media/images/congreso.jpg')}}" alt="Echenique roba en el congreso">
+            <figcaption>Echenique roba en el congreso</figcaption>
+        </figure>
+        <p>Pasamos después por el congreso de los imputados, lugar donde toman whisky subvencionado por el contribuyente nuestros señores feudales y sus focas amaestradas. Un lugar actualmente inservible, donde en su día incluso se realizó alguna constitución como en el 69 o el 31.</p>
+        <ul>
+            <li><a href="https://www.amazon.es/25-a%C3%B1os-sin-constituci%C3%B3n-Investigaci%C3%B3n/dp/8495440350">Un testimonio al azar sobre el tocomocho que tienen montado estos pollos.</a></li>
+        </ul>
+        <figure  data-aos="fade-zoom-in">
+            <img src="{{ url_for('static', filename='../media/images/congre.jpg')}}" alt="Abascal el vividor">
+            <figcaption>Abascal el vividor</figcaption>
+        </figure>
+    </section>
+
+    <section class="paso">
+        <h3>Ministerio de Igualdad, edificio a remodelar, desratizar y limpiar de malos olores</h3>
+        <figure data-aos="flip-up">
+            <img src="{{ url_for('static', filename='../media/images/ministeriohorror.png')}}" alt="El ministerio de los horrores o desigualdad de España">
+            <figcaption>El ministerio de los horrores o desigualdad de España</figcaption>
+        </figure>
+        <p>Llegamos por fin a la parte más execrable de nuestro tour. El ministerio de los horrores, símbolo de la decadencia española, único en su especie en el mundo, claro ejemplo aplicado de una dictadura Orwelliana. Aquí, entre cubata y cubata, la lamedora de falos que llego a ministra tras su buen trabajo bajo las mesas, y la aspirante que no pudo hacerlo pues no entraba con su tamaño Orca, más otras analfabetas e iletradas varias, se dedicaron a liberar violadores o mutilar infantes. Uno de los edificios a derribar tras un cambio de forma de gobierno, pues siguiendo a los romanos, debería de ser considerado nefas. Sigue en activo, aunque sus chorradas ya no pueden llegar mucho más lejos, ahora mismo comandado por una especie de subnormal agresiva que vocifera entre las focas de tanto en cuanto.</p>
+        <ul>
+            <li><a href="https://www.amazon.es/Nadie-nace-cuerpo-equivocado-identidad/dp/8423433323">Libro aclaratorio sobre una medida estrella de este ministerio del despropósito.</a></li>
+        </ul>
+        <figure data-aos="flip-down">
+            <img src="{{ url_for('static', filename='../media/images/irene.jpeg')}}" alt="Irene, de cajera, a limpiadora de bajos.">
+            <figcaption>Irene, de cajera, a limpiadora de bajos.</figcaption>
+        </figure>
+        <figure data-aos="flip-left">
+            <img src="{{ url_for('static', filename='../media/images/ireviola.jpg')}}" alt="Irene Montero, pederasta mayor del reino">
+            <figcaption>Irene Montero, pederasta mayor del reino</figcaption>
+        </figure>
+        <figure data-aos="flip-right">
+            <img src="{{ url_for('static', filename='../media/images/angela.jpg')}}" alt="Comebollos Pim Pam Pum, carga pública del ministerio">
+            <figcaption>Comebollos Pim Pam Pum, carga pública del ministerio</figcaption>
+        </figure>
+    </section>
+
+    <section class="paso">
+        <h3>Hora de comer, Taberna El Sur</h3>
+        <figure data-aos="zoom-out-up">
+            <img src="{{ url_for('static', filename='../media/images/tabernasurver.jpg')}}" alt="Entrada Taberna El Sur, Lavapiés.">
+            <figcaption>Entrada Taberna El Sur, Lavapiés.</figcaption>
+        </figure>
+        <p>Tras el mal trago de ver un edificio ignominioso, qué mejor que refrescar el gaznate y comerse una tapita en el barrio de Lavapiés. Haremos una parada en La taberna El Sur, de ambiente clásico de la villa madrileña. Tras reposar un rato, en una supuesta zona No Go, saldremos hacia la última parada de nuestra visita.</p>
+        <ul>
+            <li><a href="https://www.amazon.es/Nadie-nace-cuerpo-equivocado-identidad/dp/8423433323">Aquí irá el link a mi página de recetas.</a></li>
+        </ul>
+        <figure data-aos="zoom-out-down">
+            <img src="{{ url_for('static', filename='../media/images/taberna.jpg')}}" alt="Taberna de ambiente clásico e informal.">
+            <figcaption>Taberna de ambiente clásico e informal.</figcaption>
+        </figure>
+    </section>
+
+    <section class="paso">
+        <h3>La despedida, cagada en la Taberna Garibaldi, famosa por su hospitalidad y wc atascado</h3>
+        <figure data-aos="zoom-out">
+            <img src="{{ url_for('static', filename='../media/images/pablogaribaldi.jpeg')}}" alt="Cagadero obstruído de la Taberna Garibaldi, un clásido en Madrid.">
+            <figcaption>Cagadero obstruído de la Taberna Garibaldi, un clásido en Madrid.</figcaption>
+        </figure>
+        <p>La despedida se realizará en la reciéntemente abierta Taberna Garibaldi, famosa por sus baños atascados y hospitalidad a la hora de ofertar el entrar a cagar. Sitio acogedor, es una experiencia inolvidable. Cagar en el bar de Pablo Iglesias, el fundador de una nueva religión que se caga en sus adeptos, es todo un placer para cualquier ciudadano del mundo. Pruebe su papel de lija proletario, y su escobilla con la cara de Margareth Thatcher. La verdad, el jorobado está en todo, menos en la barra dónde nunca lo veréis. Que trabajen los pobres, imbéciles. Tras cagar y orinar en la puerta, sugerimos visitar otros restaurantes en el barrio, comida y cócteles son vomitivos y caros. Solo aptos para viejales y jet set, los fieles de esta chusma.</p>
+        <ul>
+            <li><a href="https://www.amazon.es/Nadie-nace-cuerpo-equivocado-identidad/dp/8423433323">Aquí irá el link a mi página de recetas.</a></li>
+        </ul>
+        <figure data-aos="zoom-out">
+            <img src="{{ url_for('static', filename='../media/images/gariviejos.jpg')}}" alt="Ambiente de 50 añeros tirando para 60, paredes sucias, Bar Garibaldi.">
+            <figcaption>Ambiente de 50 añeros tirando para 60, paredes sucias, Bar Garibaldi.</figcaption>
+        </figure>
+        <figure data-aos="zoom-in">
+            <img src="{{ url_for('static', filename='../media/images/garivie.jpg')}}" alt="Entrada Taberna Garibaldi llena de fósiles, Lavapiés.">
+            <figcaption>Entrada en la reinauguración tras el último atasco cagatorio, lleno de fósiles.</figcaption>
+        </figure>
+    </section>
+{% endblock %}
+
+

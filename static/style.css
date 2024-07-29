@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+    font-family: 'Satisfy', cursive;
+    font-size: 1.5em; /* Tamaño base del texto */
+    line-height: 1.8; /* Espaciado entre líneas */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para todos los títulos */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    margin: 2em 1em; /* Espacio arriba y abajo */
+}
+
+/* Estilos específicos para h1 */
+h1 {
+    font-size: 3em; /* Tamaño de h1 en pantallas grandes */
+}
+
+/* Estilos específicos para h2 */
+h2 {
+    font-size: 2.5em; /* Tamaño de h2 en pantallas grandes */
+}
+
+/* Estilos específicos para h3 */
+h3 {
+    font-size: 2em; /* Tamaño de h3 en pantallas grandes */
+}
+
+/* Estilos para párrafos */
+p {
+    font-family: 'Satisfy', cursive;
+    margin: 2em 12%; /* Márgenes más amplios alrededor de los párrafos */
+    text-align: justify; /* Justificar el texto */
+}
+
+/* Estilos para imágenes */
+img {
+    display: block;
+    margin: 20px auto; /* Centrar las imágenes y añadir margen superior e inferior */
+    max-width: 100%; /* Hacer que las imágenes sean responsivas */
+    width: 480px; /* Tamaño máximo de las imágenes en pantallas grandes */
+    height: auto; /* Mantener la proporción */
+}
+
+/* Estilos para figures */
+figure {
+    text-align: center;
+    margin: 20px auto; /* Centrar los figures y añadir margen superior e inferior */
+}
+
+/* Estilos para pies de foto */
+figcaption {
+    text-align: center;
+    margin-top: 0.5em; /* Espacio superior para el pie de foto */
+    font-size: 2em; /* Tamaño de letra menor para el pie de foto */
+}
+
+/* Estilos para listas */
+ul {
+    margin: 2em 12%; /* Márgenes más amplios alrededor de las listas */
+}
+
+/* Estilos específicos para pantallas pequeñas */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5em; /* Reducir el tamaño de h1 en pantallas pequeñas */
+    }
+    h2 {
+        font-size: 2em; /* Reducir el tamaño de h2 en pantallas pequeñas */
+    }
+    h3 {
+        font-size: 1.8em; /* Reducir el tamaño de h3 en pantallas pequeñas */
+    }
+    p {
+        margin: 1em 5%; /* Reducir los márgenes de los párrafos en pantallas pequeñas */
+    }
+    img {
+        width: 100%; /* Hacer que las imágenes ocupen el ancho completo en pantallas pequeñas */
+        margin: 20px 0; /* Reducir el margen superior e inferior de las imágenes en pantallas pequeñas */
+    }
+    ul {
+        margin: 1em 5%; /* Reducir los márgenes de las listas en pantallas pequeñas */
+    }
+}
