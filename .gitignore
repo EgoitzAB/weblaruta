@@ -27,6 +27,5 @@ docker-compose.override.yml
 .idea/
 *.swp
 
-# Ignore files for deployment
-certbot/conf/
-certbot/www/
+.sh
+*.sh
