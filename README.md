@@ -1,6 +1,6 @@
 # Proyecto Paródico con Flask
 
-¡Bienvenido al Proyecto Paródico con Flask! Este es un sitio web desarrollado en Flask con fines humorísticos y experimentales. En este momento, está diseñado para mostrar anuncios y servir contenido estático. Si tienes ideas para mejorar este proyecto, ¡nos encantaría que contribuyeras! Solo es una broma para un amigo, por ahora.
+¡Bienvenido al Proyecto Paródico con Flask! Este es un sitio web desarrollado en Flask con fines humorísticos y experimentales. En este momento, está diseñado para mostrar anuncios y servir contenido estático. Si tienes ideas para mejorar este proyecto, ¡nos encantaría que contribuyeras! Solo es una broma para un amigo, por ahora. Y sí, están las actas de Maduro ya que no las encuentra y alguna descarga más.
 
 ## Descripción
 
